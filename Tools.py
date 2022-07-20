@@ -5,6 +5,9 @@ def Factor(n):
         n = n - 1
     return i
 
+def Comb(n, m):
+    return Factor(n)//Factor(m)//Factor(n-m)
+
 def test():
     print(f"Factor(5)={Factor(5)}")
 
