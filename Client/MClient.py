@@ -1,4 +1,4 @@
-def MClient:
+class MClient:
   def MClient(this):
     pass
   def csend(this):
